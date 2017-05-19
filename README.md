@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/PaulHowes/easy-cli.svg?branch=master)](https://travis-ci.org/PaulHowes/easy-cli)
+
 # easy-cli
 
 Several command line option parser libraries exist for Node.js, but some of the easiest are no longer under development. This is my attempt at something that is easy to configure and use, and supports both single-function utilities and subcommand-based utilities.
