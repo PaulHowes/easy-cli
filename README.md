@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/PaulHowes/easy-cli.svg?branch=master)](https://travis-ci.org/PaulHowes/easy-cli)
+[![Coverage Status](https://coveralls.io/repos/github/PaulHowes/easy-cli/badge.svg?branch=master)](https://coveralls.io/github/PaulHowes/easy-cli?branch=master)
 
 # easy-cli
 

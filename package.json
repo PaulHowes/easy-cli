@@ -4,8 +4,10 @@
   "description": "Easy command line processor for Node.js.",
   "main": "index.js",
   "scripts": {
+    "coverage": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec",
+    "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "lint": "eslint **/*.js",
-    "test": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -41,6 +43,7 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
+    "coveralls": "^2.13.1",
     "eslint": "^3.19.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-import": "^2.2.0",
