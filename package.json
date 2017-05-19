@@ -1,0 +1,53 @@
+{
+  "name": "easy-cli",
+  "version": "1.0.0",
+  "description": "Easy command line processor for Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint **/*.js",
+    "test": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/PaulHowes/easy-cli.git"
+  },
+  "keywords": [
+    "node.js",
+    "command-line",
+    "parser"
+  ],
+  "author": "Paul Howes (Paul@TheHowes.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PaulHowes/easy-cli/issues"
+  },
+  "homepage": "https://github.com/PaulHowes/easy-cli#readme",
+  "eslintConfig": {
+    "extends": "standard",
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "plugins": [
+      "standard",
+      "promise"
+    ],
+    "rules": {
+      "indent": [
+        "error",
+        4
+      ]
+    }
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.3.0"
+  }
+}
