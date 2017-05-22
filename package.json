@@ -19,7 +19,7 @@
     "parser"
   ],
   "author": "Paul Howes (Paul@TheHowes.org)",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/PaulHowes/easy-cli/issues"
   },
